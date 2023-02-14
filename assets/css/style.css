@@ -28,14 +28,18 @@ html {
 }
 
 .Button {
-    width: 30vh;
-    height: 15px;
+    width: 40vh;
+    height: 25px;
     margin-bottom: 20px;
+    border: #1d2c2f;
+    border-radius: 10px;
 }
 
 .message_button {
-    width: 30vh;
-    height: 30px;
+    width: 40vh;
+    height: 40px;
+    border: #1d2c2f;
+    border-radius: 12px;
 }
 
 .sticky {
