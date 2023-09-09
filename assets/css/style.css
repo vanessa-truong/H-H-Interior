@@ -132,10 +132,12 @@ main section:nth-of-type(2) article h1 {
 }
 
 main section:nth-of-type(2) article p {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   padding-bottom: 20px;
-  font-weight: 300;
-  word-spacing: 10px;
+  font-weight: 400;
+  line-height: 3.5rem;
+  opacity: 0.4;
+  word-spacing: 11px;
 }
 
 main section:nth-of-type(3) {
@@ -157,17 +159,17 @@ main section:nth-of-type(3) article h1 {
 }
 
 main section:nth-of-type(3) article:nth-of-type(1) p {
-  font-size: 2rem;
-  padding-bottom: 0px;
+  font-size: 2.2rem;
+  opacity: 0.5;
   word-spacing: 10px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 main section:nth-of-type(3) article:nth-of-type(2) {
   display: flex;
   justify-content: space-between;
-  padding-left: 25vh;
-  padding-right: 25vh;
+  padding-left: 15vh;
+  padding-right: 15vh;
   padding-bottom: 80px;
 }
 
@@ -177,7 +179,7 @@ main section:nth-of-type(3) article:nth-of-type(2) div img {
 }
 
 main section:nth-of-type(3) article:nth-of-type(2) div p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 main iframe {
@@ -207,15 +209,17 @@ footer section:nth-of-type(1) {
 footer section article {
   display: block;
   width: 500px;
+  margin-top: -80px;
 }
 
 footer section article h1 {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 footer section article p {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.9rem;
+  opacity: 0.5;
+  line-height: 3.5rem;
   word-spacing: 10px;
   padding-top: 30px;
 }
@@ -248,6 +252,7 @@ footer section form h4 {
 
 .form-group {
   margin-bottom: 20px;
+  width: 355px;
 }
 
 h4 {
@@ -264,6 +269,11 @@ textarea {
   background-color: white;
   color: black;
   outline: none;
+}
+
+#textarea {
+  height: 60px;
+  font-family: "lora";
 }
 
 input[type="submit"] {
